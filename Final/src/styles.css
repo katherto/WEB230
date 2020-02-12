@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div[id="movies"] {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 250%;
+  text-align: center;
+}
+
+img {
+  height: 300px;
+  padding: 0.25em;
+  width: 202.5px;
+}
+
+img:hover {
+  box-shadow: 0 0 10px #0026ff;
+  cursor: pointer;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="text"] {
+  text-align: center;
+  width: 15em;
+}
+
+span {
+  font-weight: bold;
+}
+
+#details {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  margin-bottom: 10px;
+}
+
+#details div {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  padding: 1em;
+}
+
+#details h2 {
+  margin-top: 0;
+}
+
+#details img {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+#details img:hover {
+  box-shadow: none;
+  cursor: default;
+}
+
+#wrapper {
+  margin: auto;
+  width: 80%;
+}

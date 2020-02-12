@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="src/styles.css" type="text/css" />
+    <title>Unsplash App</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>Unsplash Image Search!</h1>
+      </header>
+      <main>
+        <input type="text" id="query" placeholder="Enter your search" />
+        <label for="num-images">Number of Images</label>
+        <select id="num-images">
+          <option value="5">5</option>
+          <option value="10">10</option>
+          <option value="20">20</option>
+          <option value="30">30</option>
+        </select>
+        <input type="button" id="submit-query" value="Search Pictures" />
+        <div id="images"></div>
+        <script src="src/index.js"></script>
+      </main>
+    </div>
+  </body>
+</html>
